@@ -41,7 +41,7 @@ if countName > 1:
         intNum1 = int(num1)
         intNum2 = int(num2)
         
-        answer = intNum1 - intNum
+        answer = intNum1 - intNum2
         
         print("\n\nAnswer is: " + str(answer))
         

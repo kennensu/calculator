@@ -31,3 +31,17 @@ if countName > 1:
         answer = intNum1 + intNum2
 
         print("\n\nAnswer is: " + str(answer))
+
+    if operation == "1": 
+        os.system("cls")
+        print("Subtraction")
+        num1 = input("\n\nEnter your first     number: ")
+        num2 = input("\n\nEnter your second     number: ")
+        
+        intNum1 = int(num1)
+        intNum2 = int(num2)
+        
+        answer = intNum1 - intNum2
+        
+        print("\n\nAnswer is: " + str(answer))
+        

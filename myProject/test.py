@@ -32,7 +32,7 @@ if countName > 1:
 
         print("\n\nAnswer is: " + str(answer))
 
-    if operation == "1": 
+    if operation == "2": 
         os.system("cls")
         print("Subtraction")
         num1 = input("\n\nEnter your first     number: ")
